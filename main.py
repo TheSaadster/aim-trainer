@@ -133,7 +133,7 @@ def main():
     misses = 0
 
     while run:
-        clock.tick(120)
+        clock.tick(60)
         click = False
         mouse_pos = pygame.mouse.get_pos()
         elapsed_time = time.time() - start_time
